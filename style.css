@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,400;10..48,600;10..48,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque";
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);    
+  }
+  
+header {
+    background: #212529;
+    width: 100%;
+    padding-left: 30px;
+    height: 60px; 
+}
+
+header span {
+    font-weight: 800;
+    font-size: 50px;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;  
+}
+
+header img {
+  width: 70px;
+}
+
+  .titulo {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  #main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  #main h2 {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  #main p {
+    font-weight: 600;
+    padding: 5px;
+  }
+
+  .main-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #input-txt {
+    width: 40px;
+    height: 20px;
+  }
+  
+  .caja {
+    width: 300px;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 10px;
+    border:solid black 1.5px; 
+  }
+  
+  .caja-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .foto {
+    border-radius: 10px;
+    border:solid black 1.5px; 
+  }
+  
+  .error {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+  }
